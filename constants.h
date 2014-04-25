@@ -1,14 +1,16 @@
-//
-//  constants.h
-//  Program_5A
-//
-//  Created by artie37 on 4/18/14.
-//  Copyright (c) 2014 artie37. All rights reserved.
-//
+// constants.h
+// Arthur Knapp
+// AK146316
 
-#ifndef Program_5A_constants_h
-#define Program_5A_constants_h
+// File: main.c------------------------------------------------------------------------------------------------
 
+// Function: main ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-
-#endif
+#define TWO_ARGS 2
+// 2 command line arguments
+#define THREE_ARGS 3
+// 3 command line arguments
+#define FIRST_ARG 1
+// The postition of the first argument
+#define SECOND_ARG 2
+// The postition of the second argument
