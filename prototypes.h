@@ -1,14 +1,12 @@
-//
-//  prototypes.h
-//  Program_5A
-//
-//  Created by artie37 on 4/23/14.
-//  Copyright (c) 2014 artie37. All rights reserved.
-//
+// prototypes.h
+// Arthur Knapp
+// AK146316
 
-#ifndef Program_5A_prototypes_h
-#define Program_5A_prototypes_h
-
-
-
-#endif
+void findFiles(DIR *);
+// Finds the proper file to insert into the linked list
+void insert(char *, int);
+// Inserts the name and the size of the file into the linked list
+void createNewList(char *, int);
+// Creates a new list if there are no nodes
+void printList();
+// Prints the linked list
